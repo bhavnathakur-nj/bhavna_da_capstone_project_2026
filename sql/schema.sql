@@ -1,3 +1,4 @@
+-- SQLBook: Code
 CREATE DATABASE Capstone;
 
 USE Capstone;
@@ -34,3 +35,4 @@ returned INT NOT NULL DEFAULT 0,
 FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
 FOREIGN KEY (product_id) REFERENCES products(product_id)
 );
+-- SQLBook: Code
